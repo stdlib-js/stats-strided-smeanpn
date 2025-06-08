@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`bcd0411`](https://github.com/stdlib-js/stdlib/commit/bcd04112308e7d7b42de2bc04599d490e429ebc8) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`dc140cf`](https://github.com/stdlib-js/stdlib/commit/dc140cf262be73e7d3f8cf1b8bd722d3564b31ff) - **feat:** add `stats/strided/smeanpn` _(by Gururaj Gurram)_
 
 </details>
