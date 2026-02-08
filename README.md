@@ -65,6 +65,11 @@ The [arithmetic mean][arithmetic-mean] is defined as
 To use in Observable,
 
 ```javascript
+smeanpn = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smeanpn@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-smeanpn/tags). For example,
+
+```javascript
 smeanpn = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smeanpn@v0.1.1-umd/browser.js' )
 ```
 
@@ -77,7 +82,7 @@ var smeanpn = require( 'path/to/vendor/umd/stats-strided-smeanpn/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smeanpn@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smeanpn@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -187,7 +192,7 @@ var v = smeanpn.ndarray( 4, x, 2, 1 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smeanpn@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smeanpn@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
